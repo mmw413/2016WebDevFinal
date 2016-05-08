@@ -1,0 +1,66 @@
+
+
+
+
+/*Background Attributes */
+
+body { 
+   
+    background: #D72638; 
+
+}
+
+/*Logo Attributes*/
+
+
+.logo{
+
+	font-family: 'Fredoka One', cursive;
+	font-size: 55px;
+	margin-left: 100px;
+	color: #FFFFFF;
+
+}
+
+.catchphrase{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: #12355B;
+	margin-left: 150px;
+	margin-top: -100px;
+}
+
+/*Choose Your Level Attributes*/
+
+.ChooseLevel{
+	font-family: 'Fredoka One', cursive;
+	font-size: 26px;
+	color: #12355B;
+	margin-left: 110px;
+	margin-top: 40px
+
+}
+
+/* "Level of Difficulty Links" Attributes*/
+
+.LinkCenter{
+	margin-top: 190px;
+}
+
+a:link, a:visited {
+    background-color: #FFFFFF;
+    color: #FF570A;
+    padding: 18px 30px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+a:hover, a:active {
+    background-color: #12355B;
+}
+
+

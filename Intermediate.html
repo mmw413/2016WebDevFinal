@@ -1,0 +1,237 @@
+<html>
+<head>
+  <title>Intermediate</title>
+
+
+        <!-- Characters -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <!-- Links to Javascript files-->
+    <!-- This belongs to OuiCards -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="Javascript.js"></script>
+    <script>
+    $(function() { 
+      $('#flashcards').ouicards(); 
+    });
+    </script>
+
+    <!-- Links to CSS Files -->
+    <link rel="stylesheet" type="text/css" href="Intermediate.css">
+
+    <!-- Fonts -->
+
+      <!-- Logo Font -->
+      <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+      <!-- Content Font -->
+      <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+
+    <!-- 996 Grid Stuff -->
+    <link rel="stylesheet" href="996-Grid (1)/code/css/normalize.css">
+    <link rel="stylesheet" href="996-Grid (1)/code/css/base.css">
+    <link rel="stylesheet" href="996-Grid (1)/code/css/grid.css">
+    <script src="996-Grid (1)/code/js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript"></script>
+
+
+
+</head>
+
+<!-- Navigation -->
+<nav>
+    <!-- Level of Difficulty Links -->
+        <div class="container">
+          <!-- Circle 1 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="beginner.html">Elementary</a>
+          </div>
+          <!-- Circle 2 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="Intermediate.html">Intermediate</a>
+          </div>
+          <!-- Circle 3 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="Advanced.html">Advanced</a>
+          </div>
+
+          <div class="prefix_1 grid_1 suffix_1">
+            <a href="index.html">Home</a>
+          </div>
+        </div>
+</nav>
+
+
+<body>
+
+  <!-- Begginer Title -->
+      <div class="Beginner">
+        <h1>Intermediate</h1>
+      </div>
+
+
+<!-- Score -->
+  <div class="score">
+  <h2>Your Score</h2>
+  </div>
+
+  <div class="Number">
+  <p id="demo">0</p>
+  </div>
+
+
+<!-- Score Script -->
+<script>
+var score = 0;
+function myFunction() {
+    document.getElementById("demo").innerHTML = score +=1 ;
+}
+</script>
+
+
+<!-- flashcards> -->
+
+<!-- Question -->
+
+   
+      <div id='flashcards'>
+        <div class= flashyflash>
+          <img src="IMG/download.png">
+          <div id='current-question'></div>
+          <div id='current-answer'></div>
+          </div>
+  
+
+
+      <ul>
+        <li>
+          <div class='question'>关系</div>
+          <div class='answer'>Relationship</div>
+        </li>
+        <li>
+          <div class='question'>段</div>
+          <div class='answer'>Paragraph</div>
+        </li>
+        <li>
+          <div class='question'>公园</div>
+          <div class='answer'>Park</div>
+        </li>
+         <li>
+          <div class='question'>故事</div>
+          <div class='answer'>Story</div>
+        </li>
+         <li>
+          <div class='question'>关心</div>
+          <div class='answer'>To Care For</div>
+        </li>
+         <li>
+          <div class='question'>还是</div>
+          <div class='answer'>Or</div>
+        </li>
+         <li>
+          <div class='question'>河</div>
+          <div class='answer'>River</div>
+        </li>
+         <li>
+          <div class='question'>护照</div>
+          <div class='answer'>Passport</div>
+        </li>
+         <li>
+          <div class='question'>花</div>
+          <div class='answer'>To Spend (Money or time); Flower</div>
+        </li>
+         <li>
+          <div class='question'>画</div>
+          <div class='answer'>to Draw</div>
+        </li>
+         <li>
+          <div class='question'>环境</div>
+          <div class='answer'>Environment</div>
+        </li>
+         <li>
+          <div class='question'>黄</div>
+          <div class='answer'>Yello</div>
+        </li>
+         <li>
+          <div class='question'>机会</div>
+          <div class='answer'>Opportunity</div>
+        </li>
+         <li>
+          <div class='question'>节目</div>
+          <div class='answer'>Program</div>
+        </li>
+         <li>
+          <div class='question'>节日</div>
+          <div class='answer'>Holiday or Festival</div>
+        </li>
+          <li>
+          <div class='question'>决定</div>
+          <div class='answer'>To Decide</div>
+        </li>
+          <li>
+          <div class='question'>渴</div>
+          <div class='answer'>Thirsty</div>
+        </li>
+          <li>
+          <div class='question'>空调</div>
+          <div class='answer'>Air Conditioning</div>
+        </li>
+          <li>
+          <div class='question'>口</div>
+          <div class='answer'>mouth</div>
+        </li>
+          <li>
+          <div class='question'>哭</div>
+          <div class='answer'>To Cry</div>
+        </li>
+          <li>
+          <div class='question'>南</div>
+          <div class='answer'>South</div>
+        </li>
+          <li>
+          <div class='question'>爬山</div>
+          <div class='answer'>To Climb a Mountain</div>
+        </li>
+          <li>
+          <div class='question'>世界</div>
+          <div class='answer'>World</div>
+        </li>
+          <li>
+          <div class='question'>愿意</div>
+          <div class='answer'>To Wish</div>
+        </li>
+          <li>
+          <div class='question'>周末</div>
+          <div class='answer'>Weekend</div>
+        </li>
+      </ul>
+
+<!-- Buttons -->
+<!-- Buttons -->
+  <div class="quest">
+    <div class="container">
+    <!-- Show Answer Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id='show-answer' href='#'>Show Answer</a>
+    </div>
+    <!-- Correct Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="correct" href="#" onclick="myFunction()">Correct</a>
+    </div>
+    <!-- Wrong Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="wrong" href="#">Wrong</a>
+    </div>
+    <!-- End Game Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="end" href="#">End Game!</a>
+  </div>
+  </div>
+  </div>
+
+  
+</body>
+</html>

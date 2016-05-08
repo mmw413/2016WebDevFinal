@@ -1,0 +1,241 @@
+<html>
+<head>
+  <title>Beginner</title>
+
+    <!-- Characters -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <!-- Links to Javascript files-->
+    <!-- This belongs to OuiCards -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="Javascript.js"></script>
+    <script>
+    $(function() { 
+      $('#flashcards').ouicards(); 
+    });
+    </script>
+
+    <!-- Links to CSS Files -->
+    <link rel="stylesheet" type="text/css" href="beginner.css">
+
+    <!-- Fonts -->
+
+      <!-- Logo Font -->
+      <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+      <!-- Content Font -->
+      <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+
+    <!-- 996 Grid Stuff -->
+    <link rel="stylesheet" href="996-Grid (1)/code/css/normalize.css">
+    <link rel="stylesheet" href="996-Grid (1)/code/css/base.css">
+    <link rel="stylesheet" href="996-Grid (1)/code/css/grid.css">
+    <script src="996-Grid (1)/code/js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript">
+      
+    </script>
+
+
+
+</head>
+
+<!-- Navigation -->
+<nav>
+    <!-- Level of Difficulty Links -->
+        <div class="container">
+          <!-- Circle 1 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="beginner.html">Elementary</a>
+          </div>
+          <!-- Circle 2 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="Intermediate.html">Intermediate</a>
+          </div>
+          <!-- Circle 3 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="Advanced.html">Advanced</a>
+          </div>
+
+          <div class="prefix_1 grid_1 suffix_1">
+            <a href="index.html">Home</a>
+          </div>
+        </div>
+</nav>
+
+
+
+<body>
+
+  <!-- Begginer Title -->
+      <div class="Beginner">
+        <h1>Elementary</h1>
+      </div>
+
+<!-- Score -->
+  <div class="score">
+  <h2>Your Score</h2>
+  </div>
+
+  <div class="Number">
+  <p id="demo">0</p>
+  </div>
+
+
+<!-- Score Script -->
+<script>
+var score = 0;
+function myFunction() {
+    document.getElementById("demo").innerHTML = score +=1 ;
+}
+</script>
+
+
+
+
+
+
+
+<!-- flashcards> -->
+
+<!-- Question -->
+
+   
+      <div id='flashcards'>
+        <div class= flashyflash>
+          <img src="IMG/download.png">
+          <div id='current-question'></div>
+          <div id='current-answer'></div>
+          </div>
+  
+
+
+      <ul>
+        <li>
+          <div class='question'>我</div>
+          <div class='answer'>I or Me</div>
+        </li>
+        <li>
+          <div class='question'>你</div>
+          <div class='answer'>You</div>
+        </li>
+        <li>
+          <div class='question'>她</div>
+          <div class='answer'>Her</div>
+        </li>
+         <li>
+          <div class='question'>他</div>
+          <div class='answer'>Him</div>
+        </li>
+         <li>
+          <div class='question'>一</div>
+          <div class='answer'>One</div>
+        </li>
+         <li>
+          <div class='question'>三</div>
+          <div class='answer'>Three</div>
+        </li>
+         <li>
+          <div class='question'>二</div>
+          <div class='answer'>Two</div>
+        </li>
+         <li>
+          <div class='question'>四</div>
+          <div class='answer'>Four</div>
+        </li>
+         <li>
+          <div class='question'>五</div>
+          <div class='answer'>Five</div>
+        </li>
+         <li>
+          <div class='question'>六</div>
+          <div class='answer'>Six</div>
+        </li>
+         <li>
+          <div class='question'>七</div>
+          <div class='answer'>Seven</div>
+        </li>
+         <li>
+          <div class='question'>八</div>
+          <div class='answer'>Eight</div>
+        </li>
+         <li>
+          <div class='question'>九</div>
+          <div class='answer'>Nine</div>
+        </li>
+         <li>
+          <div class='question'>十</div>
+          <div class='answer'>Ten</div>
+        </li>
+         <li>
+          <div class='question'>狗</div>
+          <div class='answer'>Dog</div>
+        </li>
+          <li>
+          <div class='question'>猫</div>
+          <div class='answer'>Cat</div>
+        </li>
+          <li>
+          <div class='question'>苹果</div>
+          <div class='answer'>Apple</div>
+        </li>
+          <li>
+          <div class='question'>爱</div>
+          <div class='answer'>Love</div>
+        </li>
+          <li>
+          <div class='question'>爸爸</div>
+          <div class='answer'>Dad</div>
+        </li>
+          <li>
+          <div class='question'>茶</div>
+          <div class='answer'>Tea</div>
+        </li>
+          <li>
+          <div class='question'>电影</div>
+          <div class='answer'>Movie</div>
+        </li>
+          <li>
+          <div class='question'>飞机</div>
+          <div class='answer'>Airplane</div>
+        </li>
+          <li>
+          <div class='question'>老师</div>
+          <div class='answer'>Teacher</div>
+        </li>
+          <li>
+          <div class='question'>今天</div>
+          <div class='answer'>Today</div>
+        </li>
+          <li>
+          <div class='question'>妈妈</div>
+          <div class='answer'>Mother</div>
+        </li>
+      </ul>
+
+<!-- Buttons -->
+  <div class="quest">
+    <div class="container">
+    <!-- Show Answer Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id='show-answer' href='#'>Show Answer</a>
+    </div>
+    <!-- Correct Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="correct" href="#" onclick="myFunction()">Correct</a>
+    </div>
+    <!-- Wrong Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="wrong" href="#">Wrong</a>
+    </div>
+
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="end" href="#">End Game!</a>
+  </div>
+  </div>
+  </div>
+</body>
+</html>

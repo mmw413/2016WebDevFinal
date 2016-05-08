@@ -1,0 +1,238 @@
+<html>
+<head>
+  <title>Beginner</title>
+
+    <!-- Characters -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <!-- Links to Javascript files-->
+    <!-- This belongs to OuiCards -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="Javascript.js"></script>
+    <script>
+    $(function() { 
+      $('#flashcards').ouicards(); 
+    });
+    </script>
+
+    <!-- Links to CSS Files -->
+    <link rel="stylesheet" type="text/css" href="Advanced.css">
+
+    <!-- Fonts -->
+
+      <!-- Logo Font -->
+      <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+      <!-- Content Font -->
+      <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+
+    <!-- 996 Grid Stuff -->
+    <link rel="stylesheet" href="996-Grid (1)/code/css/normalize.css">
+    <link rel="stylesheet" href="996-Grid (1)/code/css/base.css">
+    <link rel="stylesheet" href="996-Grid (1)/code/css/grid.css">
+    <script src="996-Grid (1)/code/js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript"></script>
+
+
+
+</head>
+
+<!-- Navigation -->
+<nav>
+    <!-- Level of Difficulty Links -->
+        <div class="container">
+          <!-- Circle 1 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="beginner.html">Elementary</a>
+          </div>
+          <!-- Circle 2 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="Intermediate.html">Intermediate</a>
+          </div>
+          <!-- Circle 3 -->
+          <div class ="prefix_1 grid_1 suffix_1">
+              <a href="Advanced.html">Advanced</a>
+          </div>
+
+          <div class="prefix_1 grid_1 suffix_1">
+            <a href="index.html">Home</a>
+          </div>
+        </div>
+</nav>
+
+
+
+<body>
+
+  <!-- Begginer Title -->
+      <div class="Beginner">
+        <h1>Advanced</h1>
+      </div>
+
+
+
+<!-- Score -->
+  <div class="score">
+  <h2>Your Score</h2>
+  </div>
+
+  <div class="Number">
+  <p id="demo">0</p>
+  </div>
+
+
+<!-- Score Script -->
+<script>
+var score = 0;
+function myFunction() {
+    document.getElementById("demo").innerHTML = score +=1 ;
+}
+</script>
+
+
+<!-- flashcards> -->
+
+<!-- Question -->
+
+   
+      <div id='flashcards'>
+        <div class= flashyflash>
+          <img src="IMG/download.png">
+          <div id='current-question'></div>
+          <div id='current-answer'></div>
+          </div>
+  
+
+
+      <ul>
+        <li>
+          <div class='question'>安宁</div>
+          <div class='answer'>Peaceful, Tranquil</div>
+        </li>
+        <li>
+          <div class='question'>凹凸</div>
+          <div class='answer'>Bumpy, Uneven</div>
+        </li>
+        <li>
+          <div class='question'>疤</div>
+          <div class='answer'>To Scar</div>
+        </li>
+         <li>
+          <div class='question'>把戏</div>
+          <div class='answer'>Acrobatics</div>
+        </li>
+         <li>
+          <div class='question'>败坏</div>
+          <div class='answer'>To ruin, to corrupt</div>
+        </li>
+         <li>
+          <div class='question'>打击</div>
+          <div class='answer'>To Strike, To hit</div>
+        </li>
+         <li>
+          <div class='question'>淡水</div>
+          <div class='answer'>Potable Water</div>
+        </li>
+         <li>
+          <div class='question'>电源</div>
+          <div class='answer'>Electrical Power Source</div>
+        </li>
+         <li>
+          <div class='question'>发育</div>
+          <div class='answer'>To Develop, Growth</div>
+        </li>
+         <li>
+          <div class='question'>法人</div>
+          <div class='answer'>Legal Person</div>
+        </li>
+         <li>
+          <div class='question'>分红</div>
+          <div class='answer'>A Bonus</div>
+        </li>
+         <li>
+          <div class='question'>杠杆</div>
+          <div class='answer'>Lever</div>
+        </li>
+         <li>
+          <div class='question'>绅士</div>
+          <div class='answer'>Gentlemen</div>
+        </li>
+         <li>
+          <div class='question'>斯文</div>
+          <div class='answer'>Refined</div>
+        </li>
+         <li>
+          <div class='question'>舔</div>
+          <div class='answer'>To Lick</div>
+        </li>
+          <li>
+          <div class='question'>秃</div>
+          <div class='answer'>Bald</div>
+        </li>
+          <li>
+          <div class='question'>娃娃</div>
+          <div class='answer'>Baby</div>
+        </li>
+          <li>
+          <div class='question'>文凭</div>
+          <div class='answer'>Diploma</div>
+        </li>
+          <li>
+          <div class='question'>无知</div>
+          <div class='answer'>Ignorance</div>
+        </li>
+          <li>
+          <div class='question'>霞</div>
+          <div class='answer'>Red Clouds</div>
+        </li>
+          <li>
+          <div class='question'>细菌</div>
+          <div class='answer'>Bacteria</div>
+        </li>
+          <li>
+          <div class='question'>夏令营</div>
+          <div class='answer'>Summer Camp</div>
+        </li>
+          <li>
+          <div class='question'>信赖</div>
+          <div class='answer'>To Trust</div>
+        </li>
+          <li>
+          <div class='question'>压缩</div>
+          <div class='answer'>To Compress</div>
+        </li>
+          <li>
+          <div class='question'>演习</div>
+          <div class='answer'>To exercise</div>
+        </li>
+      </ul>
+
+<!-- Buttons -->
+<!-- Buttons -->
+  <div class="quest">
+    <div class="container">
+    <!-- Show Answer Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id='show-answer' href='#'>Show Answer</a>
+    </div>
+    <!-- Correct Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="correct" href="#" onclick="myFunction()">Correct</a>
+    </div>
+    <!-- Wrong Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="wrong" href="#">Wrong</a>
+    </div>
+    <!-- End Game Button -->
+    <div class="prefix_1 grid_1 suffix_1">
+    <a id="end" href="#">End Game!</a>
+  </div>
+  </div>
+  </div>
+
+  
+</body>
+</html>
